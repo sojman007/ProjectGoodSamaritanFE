@@ -6,7 +6,7 @@ class Header extends Component {
             
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
                 
-                <a className="navbar-brand" href="/">PGE</a>
+                <a className="navbar-brand" href="/">PGS</a>
 
                 {
                 

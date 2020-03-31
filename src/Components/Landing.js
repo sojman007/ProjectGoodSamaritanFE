@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
+import Login from './Login';
 
 const Styles = styled.div`
 #title {
@@ -7,15 +8,13 @@ const Styles = styled.div`
     text-align: center;
     color: #efefef
     font-family: 'Montserrat', sans-serif;
+    position: relative;
 }
 
 .container {
     padding: 3% 15% 34%;
 }
 
-
-
-.
 `;
 
 class Landing extends Component {
@@ -26,7 +25,12 @@ class Landing extends Component {
                 <div className='container'>
                     <h1 className='top-title'>Welcome to Project Good Samaritan Page.</h1>
                     <p className='top-paragraph'>Your hub for every lost and found items</p>
+                    <Login />
                 </div>
+
+                
+
+                
                     
                 </div>
                    
