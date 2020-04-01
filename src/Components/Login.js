@@ -1,86 +1,37 @@
-import React from 'react';
-import styled from 'styled-components';
+import React, { Component } from 'react';
 
 
-const Styles = styled.div`
+class Login extends Component {
+    render() {
+        return(
 
-    form {
-        position: relative;
-    }
+            <div id='login'>
+                <form className='loginForm'>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" />
+                    </div>
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
 
-
-    input[type=email] {
-        width: 30%;
-        padding: 6px;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        box-sizing: border-box;
-        margin-top: 6px;
-        margin-bottom: 16px;
-    }
-
-
-    input[type=text] {
-        width: 30%;
-        padding: 6px;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        box-sizing: border-box;
-        margin-top: 6px;
-        margin-bottom: 16px;
-    }
-
-    input[type=password] {
-        width: 30%;
-        padding: 6px;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        box-sizing: border-box;
-        margin-bottom: 16px;
-    }
-
-    input[type=submit] {
-        padding: 9px;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
-        background-color: blue;
-    }
-
-    input[type=submit]:hover {
-        background-color: #45a049;
-      }
-
-    .loginContainer {
-        border-radius: 5px;
-        background-color: white;
-        padding: 10px;
-        border-style: solid;
-    }
-
-`;
-
-
-function Login() {
-    return(
+            
         
-           <Styles className='loginContainer'>
-
-            <form action="email">Email</form>
-            <input type="email" placeholder="Input Email"/>
-
-           <form action="userName">Username</form>
-            <input type="text" placeholder="Input Username"/>
-
-            <form action="password">Password</form>
-            <input type="password" placeholder="Input Password"/>
-
-            <br/>
-
-            <input type="submit" value="Submit"/>
-           </Styles> 
-           
-    )
+          
+              
+               
+        )
+    }
+   
 }
 
 export default Login;

@@ -1,2 +1,77 @@
+body {
+    font-family: 'Gotu', sans-serif;
+}
 
+.App {
+    padding: inherit;
+}
+
+
+
+
+
+
+
+
+
+/* Landing */
+
+#title {
+    background-image: url(https://images.unsplash.com/photo-1585251172245-4e87f155fc30?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80);
+    text-align: center;
+    color: black;
+    position: relative;
+}
+
+.container {
+    padding: 3% 12% 34%;
+}
+
+.top-title {
+    padding-left: 0;
+}
+
+
+/* Login */
+
+#login {
+    padding: 7% 0 0 9%;
+    margin-left: -15px;
+}
+
+.loginForm {
+    width: 30%;
+    border: solid grey;
+    border-radius: 8px;
+    padding: 20px 20px;
+    background-color: grey;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+
+
+#footer {
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.footerParagraph {
+    color: #8f8f8f;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.icon {
+    margin: 20px 10px;
+}
 
